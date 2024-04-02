@@ -1,4 +1,4 @@
-package domain.event;
+package jrsoftwork.com.pass.in.domain.event;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
