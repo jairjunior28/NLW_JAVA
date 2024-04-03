@@ -5,6 +5,7 @@ spring.application.name=jrsoftwork.com.pass.in
 #spring.datasource.driver-class-name=org.hsqldb.jdbc.JDBCDriver
 #spring.datasource.driver-class-name=org.hsqldb.jdbc.JDBCDriver
 #spring.datasource.url=jdbc:hsqldb:file:src/main/resources/database/myDb;shutdown=true
+
 spring.datasource.username=root
 spring.datasource.password=
 #url de conexão do banco de dados
