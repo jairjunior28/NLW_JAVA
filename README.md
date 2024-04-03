@@ -1,4 +1,6 @@
 configurações feitas no applicattion.properties para rodar com mysql
+
+
 spring.application.name=jrsoftwork.com.pass.in
 #spring.datasource.driver-class-name=org.hsqldb.jdbc.JDBCDriver
 #spring.datasource.driver-class-name=org.hsqldb.jdbc.JDBCDriver
