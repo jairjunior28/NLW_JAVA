@@ -27,6 +27,7 @@ spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.properties.hibernate.use_sql_comments=true
 ###################################################################################################################
 #  dependencias do mysql e flyway migrations para rodar com mysql
+ 
 <dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
