@@ -13,7 +13,9 @@ spring.datasource.url=jdbc:mysql://localhost:3306/nlw?allowPublicKeyRetrieval=tr
 
 #apontamos para o JPA e Hibernate qual é o Dialeto do banco de dados
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
 #deixamos o hibernate responsável por ler nossas entidades e criar as tabelas do nosso banco de dados automaticamente
 spring.jpa.hibernate.ddl-auto=create
 #configuração do Hibernate para reconhecer o nome de tabelas em caixa alta
