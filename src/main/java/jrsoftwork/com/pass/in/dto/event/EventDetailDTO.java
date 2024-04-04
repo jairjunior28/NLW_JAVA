@@ -1,4 +1,4 @@
-package jrsoftwork.com.pass.in.dto;
+package jrsoftwork.com.pass.in.dto.event;
 
 public record EventDetailDTO(
         String id,

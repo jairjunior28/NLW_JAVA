@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.id.uuid.StandardRandomStrategy;
+
+import java.util.UUID;
 
 @Entity
 @Table(name="events")
@@ -14,8 +17,7 @@ import lombok.Setter;
 public class Event {
     @Id
     @Column(nullable = false)
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    private String id = UUID.randomUUID().toString().replace("-", "");
     @Column(nullable = false)
     private String title;
     @Column(nullable = false)

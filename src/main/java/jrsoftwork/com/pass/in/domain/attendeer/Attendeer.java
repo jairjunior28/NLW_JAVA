@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Entity
 @Table(name="attendeers")
@@ -19,7 +20,7 @@ public class Attendeer {
     @Id
     @Column(nullable = false,name="attendeers_id")
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    private String id = UUID.randomUUID().toString().replace("-", "");;
     @Column(nullable= false)
     private String name;
     @Column(nullable = false)
